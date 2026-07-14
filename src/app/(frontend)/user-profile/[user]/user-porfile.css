@@ -1,0 +1,407 @@
+.full{
+         position: relative;
+  width: 100vw;   
+  height: 100vh;  
+  margin: 0;
+  padding: 0;
+
+background-size: 100% 100%;
+background-position: 0px 0px;background: linear-gradient(to bottom, #5e50c6c8, #f85e9f, #f18fac);
+
+overflow-y: scroll;
+overflow-x: hidden;
+}
+
+ 
+    
+ 
+
+.your{
+    font-family: Staatliches;
+    letter-spacing: 4px;
+    font-size: 30px;
+    position: relative;
+    top: 15px;
+    left: 39%;
+    color: aliceblue;
+}
+
+.navi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+    top: 20px;
+}
+
+.set{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.set div{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: rgba(243, 234, 242, 0.916);
+    letter-spacing: 5px;
+}
+
+
+.pres{
+    position: relative;
+    top: 23px;
+    left: 276px;
+    font-size: 12px;
+     font-family:sans-serif;
+     color: rgba(240, 248, 255, 0.683);
+
+}
+
+.inbo:hover{
+cursor: pointer;
+transform: translateY(3px) scale(1.2);
+}
+.inbo{
+    transition: all 1s ;
+}
+
+
+.seco{
+    height: 470px;
+    width: 680px;
+    position: relative;
+    top: 40px;
+    left: 25%;
+    border-radius: 50px;
+    
+   
+}
+
+
+.user-details{
+    background-color: rgba(242, 242, 242, 0.292);
+
+    height: 100px;
+    width: 650px;
+    position: relative;
+    
+    top: 8px;
+    border-radius: 10px;
+     border: 2px solid rgba(0, 0, 0, 0.546);
+
+} 
+
+
+.use-fir{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    left: 20px;
+}
+
+.use-fir-name{
+    font-family: Science Gothic;
+    color: rgba(243, 247, 249, 0.804);
+}
+
+.use-sec{
+     display: flex;
+    
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+     
+}
+
+
+.use-emoj{
+    height: 45px;
+    width: 45px;
+    border-radius: 25px;
+    background-color: rgba(199, 135, 218, 0.139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       border: 2px solid rgba(233, 235, 242, 0.774);
+
+}
+.use-emoj span{
+    font-size: 35px;
+    position: relative;
+    top: -1px;
+}
+
+@keyframes blink {
+    
+    0%{
+
+        transform: scale(0.8);
+    }50%{
+
+         transform: scale(1.1);
+    }100%{
+
+         transform: scale(1.3);
+    }
+
+}
+
+.use-name{
+    font-size: 20px;
+    font-family: Boldonse;
+letter-spacing: 3px;
+color: rgba(253, 238, 238, 0.89); 
+ 
+position: relative;
+left: -15px;
+}
+
+
+
+
+.msg-set{
+    background-color: rgba(242, 242, 242, 0.292);
+
+    height: 130px;
+    width: 650px;
+    position: relative;
+    
+    top: 28px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.546);
+
+} 
+
+.msg{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    left: 26px;
+    top: -97px;
+}
+
+.accept{
+   
+  
+
+   position: relative;
+   top: -90px;
+   left: 30px;
+background-color: rgba(255, 255, 255, 0.374);
+height: 70px;
+width: 600px;
+padding: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.546);
+   border-radius: 10px;
+
+}
+
+.ace-msg p{
+    font-size: 25px;
+    color: rgba(22, 22, 22, 0.822);
+    letter-spacing: 1px;
+}
+.ace-msg span{
+    position: relative;
+    left: 1px;
+    color: #fefefe9e;
+}
+
+.ace-msg{
+    position: relative;
+    top: -14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.acpt-btn{
+    position: relative;
+    top: -30px;
+    left: 500px;
+}
+
+
+
+.user-link{
+      background-color: rgba(242, 242, 242, 0.292);
+
+    height: 120px;
+    width: 650px;
+    position: relative;
+     
+    
+    top: -50px;
+    border-radius: 10px;
+     border: 2px solid rgba(0, 0, 0, 0.409);
+
+}
+
+.link{
+    position: relative;
+    left: 25px;
+    top: 6px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        
+      
+}
+.link span{
+
+    position: relative;
+    top: -10px;
+    left: 20px;
+     font-size: 20px;
+      color: #ffffffcc;
+    letter-spacing: 1px;
+}
+
+
+.link2{
+     position: relative;
+   
+   left: 30px;
+background-color: rgba(255, 255, 255, 0.374);
+height: 60px;
+width: 600px;
+padding: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.546);
+   border-radius: 10px;
+   top: 5px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   gap: 120px;
+
+}
+.link2 span{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: 16px;
+       position: relative;
+       left: -20px;
+       color: #38373780;
+}
+
+
+.last-mess{
+     font-family: Gloock;
+  letter-spacing: 3px;
+  position: relative;
+  left: 40%;
+  font-size: larger;
+  cursor: pointer;
+  color: #ffffff;
+  transition: all 1s;
+  top: -10px;
+}
+
+ 
+
+
+/* respnsive start from here */
+
+@media screen and (max-width: 768px) {
+
+
+    .set div{
+    font-size: 25px;
+    position: relative;
+    left: -10px;
+    }
+
+    .inbo{
+        width: 40px;
+        height: 40px;
+    }
+     .pres {
+
+    color: #f0f8ffae;
+    font-family: sans-serif;
+    font-size: 8px;
+    position: relative;
+    top: 16px;
+    left: 80px;
+}
+
+.msg-logo{
+    position: relative;
+    top: 10px;
+}
+
+
+
+/* sec part */
+.seco {
+    border-radius: 50px;
+    width: 100vw;
+    height: 470px;
+    position: relative;
+    top: 60px;
+    left: 2%;
+}
+
+.user-details{
+    width: 95vw;
+}
+.msg-set{
+ width: 95vw;
+}
+
+
+.accept { 
+    width: 88vw;
+    
+    left: 10px;
+}
+.ace-msg p{
+
+    font-size: 20px;
+}
+.ace-msg span{
+    font-size: 10px;
+}
+
+.acpt-btn {
+    position: relative;
+    top: -25px;
+    left: 270px;
+}
+
+.user-link{
+    
+ width: 95vw;
+}
+.link2{
+     width: 88vw;
+    
+    left: 10px;
+}
+
+.link2 span {
+     font-size: 12px;
+    position: relative;
+    left: -10px;
+}
+
+
+
+
+.last-mess {
+     top: 100px;
+    left: 20%;
+}
+
+ 
+
+
+
+
+
+
+}

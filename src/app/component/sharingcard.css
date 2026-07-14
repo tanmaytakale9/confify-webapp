@@ -1,0 +1,103 @@
+.card55 {
+  max-width: 320px;
+  border-radius: 1rem;
+  background-color: rgba(31, 41, 55, 1);
+  padding: 1rem;
+}
+
+.infos55 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  grid-gap: 1rem;
+  gap: 1rem;
+}
+
+.image55 {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 0.5rem;
+  background-color: rgb(118, 36, 194);
+  background: linear-gradient(to bottom right, rgb(118, 36, 194), rgb(185, 128, 240));
+}
+
+.info55 {
+  height: 7rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.name55 {
+  font-size: 1.05rem;
+  line-height: 1.75rem;
+  font-family: Boldonse;
+  color: rgba(255, 255, 255, 1);
+}
+
+.function55 {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgba(156, 163, 175, 1);
+}
+
+.stats55 {
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgba(0, 0, 0, 1);
+}
+
+.flex55 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 4px;
+  font-size: 10px;
+}
+
+.state-value55 {
+  font-weight: 700;
+  color: rgb(118, 36, 194);
+ 
+ font-size: 15px;  
+}
+
+.request55{
+  margin-top: 1.5rem;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  transition: all .3s ease;
+}
+
+.request55:hover {
+  background-color: rgb(118, 36, 194);
+  color: #fff;
+}
+
+.image55{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+#sharecard2{
+  height: 350px;
+  width: 300px;
+  background-color: rgb(255, 184, 208);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

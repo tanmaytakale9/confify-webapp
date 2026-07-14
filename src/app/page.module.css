@@ -1,0 +1,239 @@
+ 
+.okay{
+   
+  position: relative;
+  width: 100vw;   
+  height: 100vh;  
+  margin: 0;
+  padding: 0;
+   background-size: 100% 100%;
+background-position: 0px 0px,0px 0px,0px 0px,0px 0px;
+background-image: radial-gradient(49% 81% at 45% 47%, #FFE20345 0%, #073AFF00 100%),radial-gradient(113% 91% at 17% -2%, #5D678E00 1%, #FF000000 99%),radial-gradient(142% 91% at -6% 74%, #EA297AFF 3%, #F082E400 99%),radial-gradient(75% 75% at 50% 50%, #FBF1FBFF 16%, #EDEEF2FF 100%);         
+}
+
+.log{
+  
+  position: absolute;
+  top: 30px;
+  left: 45%;
+}
+  
+ .highlight{
+  flex-direction: column;
+
+  position: relative;
+  top: 170px;
+
+ }  
+ .highlight p{
+ font-family:Boldonse;
+ 
+  
+  font-size: 45px;
+ 
+    
+  color: #fdfdfd;
+  text-align: center;
+  
+  letter-spacing: 5px;
+   
+ }
+
+ .highlight span{
+ color: #ab51b0f1;
+
+}
+
+
+.second{
+  
+  flex-direction: column;
+gap: 2px;
+  position: relative;
+  top: 180px;
+
+}
+.second span{
+ 
+ font-family:Momo Trust Display;
+  
+font-size: 13x;
+ 
+
+letter-spacing: 2px;
+color:rgba(0, 0, 0, 0.568)
+  
+}
+
+ 
+.btn {
+  position: relative;
+  font-size: 15px; 
+  padding: 1em 2em;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 6em;
+  transition: all 0.2s;
+  letter-spacing: 2px;
+   border-radius: black 2px ;
+
+  font-family:DM Serif Display;
+  border-color: #cfcec745;
+  
+  background-color: rgb(244, 231, 255);
+   
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
+  background-color: rgba(221, 174, 234, 0.534);
+  color: whitesmoke;
+  
+}
+
+.btn:active {
+  transform: translateY(2px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.btn::after {
+  background-color: #ffffff;
+}
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.button{
+  position: relative;
+ 
+  top: 220px;
+  left: 41%;
+}
+
+.last{
+  position: relative;
+  top: 250px;
+  left: 40%;
+  display: flex;
+  
+   
+} 
+
+.last span{
+  font-family: Gloock;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: rgba(246, 240, 248, 0.954);
+  position: relative;
+  top: -3px;
+ right: -6px;
+}
+ 
+.loader {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #69ffa8;
+  animation: 1.5s pulse infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #69ffa8;
+  }
+
+  100% {
+    box-shadow: 0 0 0 14px #69ffa800;
+  }
+}
+
+
+ 
+/* respnsive start from here */
+
+@media screen and (max-width: 768px) {
+
+  .log{
+  
+  position: absolute;
+  top: 30px;
+  left: 35%;
+}
+
+
+ .highlight{
+  flex-direction: column;
+
+  position: relative;
+  top: 190px;
+
+ }  
+ .highlight p{
+  
+  
+  font-size: 30px;
+ 
+     
+   
+ }
+ 
+
+
+.second{
+  
+  /* flex-direction: column;
+gap: 2px;
+  position: relative; */
+  top: 200px;
+}
+
+.second span{
+  font-size: 12px;
+}
+
+.button{
+  position: relative;
+ 
+  top: 330px;
+  left: 25%;
+}
+
+
+
+.last{
+  position: relative;
+  top: 350px;
+  left: 25%;
+   
+  
+   
+} 
+
+
+
+
+
+
+
+
+
+
+}

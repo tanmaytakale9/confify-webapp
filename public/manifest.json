@@ -1,0 +1,21 @@
+{
+  "name": "Confify - Anonymous Messages",
+  "short_name": "Confify",
+  "description": "Create your anonymous Confify link and receive honest messages.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#8B5CF6",
+  "lang": "en",
+
+  "icons": [
+     
+    {
+      "src": "/vercel.svg",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "html2canvas": "^1.4.1",
+    "mongoose": "^9.5.0",
+    "next": "16.2.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-toastify": "^11.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.4",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.0"
+  }
+}
